@@ -67,15 +67,21 @@ public class k56{
     }
 }
     */
-class k56{
-    public void show(int a){
-        System.out.println("int " +a);
+// class k56{
+//     public void show(int a){
+//         System.out.println("int " +a);
 
-    }
+//     }
+//     public static void main(String args[]){
+//         k56 obj=new k56();
+//         byte a=1;
+//         obj.show(a);
+
+//     }
+// }
+public class k56{
     public static void main(String args[]){
-        k56 obj=new k56();
-        byte a=1;
-        obj.show(a);
-
+        int a[]={1,2,3,4};
+        System.out.println(a[1]);
     }
 }
